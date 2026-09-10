@@ -57,8 +57,3 @@ static approach fails.
 - Q and R are fixed by hand — proper MLE estimation would be more rigorous
 - No transaction costs modeled — spread trades frequently, costs matter
 - Walk-forward validation not implemented — in-sample result only
-
-## Physics Connection
-- OU process = Langevin equation — same mathematics, different domain
-- Kalman filter = state-space model used in experimental physics
-- Half-life = same formula as GARCH variance mean reversion
