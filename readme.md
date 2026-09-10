@@ -12,7 +12,7 @@ Key finding: ARIMA residuals have autocorrelated squares — variance is
 predictable even when returns are not. GARCH captures this with three 
 parameters estimated via maximum likelihood.
 
-→ [Project 01](./project 1/)
+→ [Project 01](./project1/)
 
 ### Project 02 — Cointegration and Statistical Arbitrage
 Demonstrates cointegration pipeline on synthetic data, then applies 
