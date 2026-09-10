@@ -41,10 +41,3 @@ close to but below the EWMA boundary of 1.
 - All three models look visually similar — differences only apparent over 
   long horizons where GARCH mean-reverts and EWMA drifts
 
-## Limitations
-- Gaussian innovations assumed — SPY returns have fat tails, Student-t 
-  GARCH would be more appropriate
-- No formal forecast evaluation — QLIKE loss and Mincer-Zarnowitz regression 
-  left as extension
-- In-sample fit only — walk-forward validation not implemented
-
