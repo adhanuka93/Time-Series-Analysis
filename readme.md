@@ -12,7 +12,7 @@ Key finding: ARIMA residuals have autocorrelated squares — variance is
 predictable even when returns are not. GARCH captures this with three 
 parameters estimated via maximum likelihood.
 
-→ [Project 01](./project_01/)
+→ [Project 01](./project1/)
 
 ### Project 02 — Cointegration and Statistical Arbitrage
 Demonstrates cointegration pipeline on synthetic data, then applies 
@@ -22,7 +22,7 @@ Key finding: Static OLS hedge ratio fails over 15 years — the GLD/GDX
 relationship is time-varying. Kalman filter tracks β_t dynamically, 
 producing a stationary spread where the static approach fails.
 
-→ [Project 02](./project_02/)
+→ [Project 02](./project2/)
 
 ## Technical Stack
 - Python — NumPy, Pandas, SciPy, Matplotlib, statsmodels
