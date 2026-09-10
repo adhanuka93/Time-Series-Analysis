@@ -1,7 +1,13 @@
-# Quant Research Portfolio
+# Quant Research Portfolio — Time Series & Volatility Modeling
 
 Two projects implementing quantitative finance models from scratch,
 emphasizing mathematical depth and honest out-of-sample validation.
+
+**Methods:** GARCH, EWMA, ARIMA, Kalman filter, cointegration,
+Ornstein-Uhlenbeck process, MLE, stationarity testing, pairs trading,
+mean reversion, volatility forecasting, statistical arbitrage
+
+---
 
 ## Projects
 
@@ -20,6 +26,8 @@ on real GLD/GDX data 2010–2026.
 **Key finding:** Static hedge ratio fails over 15 years — relationship is 
 time-varying. Kalman filter tracks β_t dynamically, producing a stationary 
 spread where the static approach fails.
+
+---
 
 ## Technical Stack
 - Python — NumPy, Pandas, SciPy, Matplotlib, statsmodels
